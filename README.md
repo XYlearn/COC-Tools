@@ -1,2 +1,16 @@
-# COC-Tools
-DIY Tools for Call of Cathulhu Game
+# COC跑团记录处理工具
+
+## 功能
+
+1. 将QQ聊天记录转换为普通跑团记录
+2. 将普通跑团记录转换为便于制作音频的人物对话记录
+
+## 使用方式
+
+1. 下载安装python3 。官网：https://www.python.org/  （如果之前安装了python2，需要使用python3运行脚本）
+2. 在目录下创建name_alias.txt文件。该文件每行包含一个键值对，用*英文*冒号分开，冒号左边为QQ聊天的昵称，右边为输出记录的角色名（需要和cocrecord.py里的一样，否则无法直接转换为语音记录）,除此之外不要有其他内容。
+3. 在qq.txt中保存跑团聊天记录
+4. 运行cocrecord.py脚本，得到records.txt为跑团记录，VoiceRecords文件夹下为便于声音制作的记录文件，再次运行
+
+## 反馈
+测试版本，若有问题发送问题和出现问题的跑团记录样本邮箱到 1014355965@qq.com
